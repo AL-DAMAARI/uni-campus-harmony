@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// University-specific colors
+				university: {
+					navy: 'hsl(var(--university-navy))',
+					green: 'hsl(var(--university-green))',
+					gold: 'hsl(var(--university-gold))',
+					'light-blue': 'hsl(var(--university-light-blue))',
+					cream: 'hsl(var(--university-cream))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

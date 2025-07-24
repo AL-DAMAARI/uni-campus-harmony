@@ -18,6 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        university: "bg-university-navy text-white hover:bg-university-navy/90 shadow-md",
+        academic: "bg-university-green text-white hover:bg-university-green/90 shadow-md",
+        highlight: "bg-university-gold text-university-navy hover:bg-university-gold/90 shadow-md font-semibold",
       },
       size: {
         default: "h-10 px-4 py-2",

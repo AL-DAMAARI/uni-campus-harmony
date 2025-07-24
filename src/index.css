@@ -9,32 +9,53 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 223 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 223 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 223 47% 11%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 223 47% 11%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 142 69% 24%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 38 84% 55%;
+    --accent-foreground: 223 47% 11%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 223 47% 11%;
+
+    /* University-specific design tokens */
+    --university-navy: 223 47% 11%;
+    --university-green: 142 69% 24%;
+    --university-gold: 38 84% 55%;
+    --university-light-blue: 200 71% 89%;
+    --university-cream: 48 100% 97%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--university-navy)), hsl(var(--university-green)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--university-green)), hsl(var(--university-gold)));
+    --gradient-accent: linear-gradient(180deg, hsl(var(--university-light-blue)), hsl(var(--background)));
+    
+    /* Shadows */
+    --shadow-card: 0 4px 12px hsl(var(--university-navy) / 0.1);
+    --shadow-elevated: 0 8px 24px hsl(var(--university-navy) / 0.15);
+    --shadow-floating: 0 12px 36px hsl(var(--university-navy) / 0.2);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.15s ease-in-out;
 
     --radius: 0.5rem;
 
