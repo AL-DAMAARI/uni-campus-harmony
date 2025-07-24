@@ -9,6 +9,7 @@ import DashboardLayout from "@/components/Layout/DashboardLayout";
 import Index from "./pages/Index";
 import Students from "./pages/Students";
 import Courses from "./pages/Courses";
+import Exams from "./pages/Exams";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const AppContent = () => {
         <Route index element={<Index />} />
         <Route path="students" element={<Students />} />
         <Route path="courses" element={<Courses />} />
+        <Route path="exams" element={<Exams />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
       </Route>
